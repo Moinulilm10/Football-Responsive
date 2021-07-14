@@ -13,20 +13,6 @@ header {
   align-items: center;
   background-color: #2d25a0;
 }
-/* @keyframes colorchanging {
-  from {
-    background-color: #2d25a0;
-  }
-  to {
-    background-color: #0996b9;
-  }
-}
-header:hover {
-  animation-name: colorchanging;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-} */
 .header-title {
   display: flex;
   flex-direction: column;
@@ -113,4 +99,60 @@ header:hover {
   font-size: 16px;
   font-weight: 100;
 }
-/* gallery styles */
+/* feedback form */
+#form-section {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 1849px;
+  margin-bottom: 158px;
+  margin-left: 400px;
+}
+.form-control {
+  width: 600px;
+  outline: none;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+form button {
+  color: white;
+  background-color: lightblue;
+  border-radius: 5pxs;
+  padding: 10px;
+  outline: none;
+}
+
+/* footer section */
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 483px;
+  height: 213px;
+  margin: 170px 481px 60px 475px;
+}
+.footer-items img {
+  width: 483px;
+  height: 110px;
+}
+.footer-items .social-icons {
+  width: 170px;
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+.social-icons .fab {
+  color: darkgray;
+}
+.footer-items p {
+  font-size: 18px;
+}
+
+/* for mobile device */
+@media only screen and (max-width: 688px) {
+}
