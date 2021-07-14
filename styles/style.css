@@ -155,4 +155,75 @@ form button {
 
 /* for mobile device */
 @media only screen and (max-width: 688px) {
+  /* header section */
+  header {
+    width: 668px;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .header-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 112px;
+    margin-bottom: 2px;
+  }
+  .title {
+    width: 278px;
+    height: 138px;
+    margin-right: 60px;
+    margin-left: 23px;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  header .button {
+    margin-left: 23px;
+  }
+  .header-image {
+    width: 329px;
+    height: 259px;
+    margin: 50px 15px 38px 15px;
+  }
+
+  /* player section */
+  .player-details {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .player {
+    width: 330px;
+    height: 474px;
+    margin: 15px;
+    margin-bottom: 33px;
+    padding: 10px 0;
+  }
+
+  /* form section */
+  .form-control {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  /* footer section */
+  .footer-items {
+    justify-content: space-between;
+    align-items: center;
+    width: 484px;
+    /* height: 213px; */
+    margin: 43px 0px 187px 80px;
+  }
+  .footer-items img {
+    width: 276px;
+    /* height: 110px; */
+  }
+  .footer-items p {
+    text-align: left;
+    font-size: 18px;
+  }
 }
